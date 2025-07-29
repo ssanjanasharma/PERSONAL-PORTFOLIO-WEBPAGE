@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sanjana's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for Social Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!--pop up-->
+  <div class="popup">
+    <div class="popup-card">
+      <img src="capy.jpg" alt="Avatar" class="popup-avatar">
+      <h3>Hey there!</h3>
+      <p>Welcome to the Sanjana's portfolio ✨</p>
+      <button onclick="document.querySelector('.popup').style.display='none'">Yay, let's go!</button>
+    </div>
+  </div>
+
+  <!--navigation-->
+  <header>
+  <nav>
+  <div class="nav-left">
+    <img src="pic.jpg" alt="Logo" class="logo-img">
+    <span class="logo-text">Sanjana</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+  </header>
+
+  <!--about me-->
+  <section class="hero">
+    <div class="hero-content glass">
+      <h1>Hello! I'm <span>Sanjana Kumari Sharma</span></h1>
+      <p>Frontend developer & student building beautiful web interfaces</p>
+    </div>
+  </section>
+
+  <section id="about" class="section glass">
+    <h2>About Me</h2>
+    <p>I'm a 3rd-year student passionate about web development, focusing on clean code, responsive design, and building real-world projects. I’ve completed internships that improved my frontend skills and I'm always exploring new tools!</p>
+  </section>
+
+  <!--skills section-->
+  <section id="skills" class="section glass">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Tailwind</span>
+      <span>Git & GitHub</span>
+    </div>
+  </section>
+
+  <!--project section-->
+  <section id="projects" class="section glass">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Interactive Quiz Application</h3>
+        <p>A personal website to showcase who I am and what I do.</p>
+      </div>
+      <div class="project-card">
+        <h3>Real-time Chat Application</h3>
+        <p>Simple todo app using React and local storage.</p>
+      </div>
+      <div class="project-card">
+        <h3>E-learning Website</h3>
+        <p>Weather app fetching real-time data using OpenWeather API.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--contact me option-->
+  <section id="contact" class="section glass">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!--social media links-->
+<div class="socials">
+  <a href="https://github.com/ssanjanasharma" target="_blank" aria-label="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/sanjana-kumari-sharma/" target="_blank" aria-label="LinkedIn">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  <a href="https://x.com/ssanjana__" target="_blank" aria-label="X">
+    <i class="fab fa-twitter"></i>
+  </a>
+   <a href="https://www.instagram.com/ssanjana___/" target="_blank" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="mailto:your@ssanjanasharma2701@gmail.com" target="_blank" aria-label="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+</div>
+
+<!--footer-->
+  <footer>
+    <p>© 2025 Sanjana Kumari Sharma</p>
+  </footer>
+
+</body>
+</html>
